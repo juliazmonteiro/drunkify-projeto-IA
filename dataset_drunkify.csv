@@ -1,0 +1,31 @@
+usuario_id,humor,estilo_musical,bebida_favorita,intensidade_bebida,momento_consumo
+1,animado,pop,spritz,media,festa
+2,feliz,jazz,whisky suave,media,relaxamento
+3,nostalgico,jazz,whisky suave,leve,festa
+4,tranquilo,eletronico,vodka e energetico,leve,festa
+5,nostalgico,jazz,cocktail classico,leve,balada
+6,nostalgico,indie,sidra,leve,happy hour
+7,relaxado,indie,gin tonica,leve,jantar
+8,feliz,rock,rum,media,happy hour
+9,tranquilo,pop,spritz,forte,relaxamento
+10,feliz,eletronico,mojito,media,relaxamento
+11,relaxado,eletronico,mojito,leve,jantar
+12,nostalgico,indie,cerveja artesanal,media,festa
+13,nostalgico,pop,spritz,leve,festa
+14,tranquilo,eletronico,drink energetico,leve,balada
+15,relaxado,indie,gin tonica,forte,balada
+16,tranquilo,eletronico,vodka e energetico,forte,relaxamento
+17,feliz,rock,whisky,leve,jantar
+18,relaxado,jazz,cocktail classico,forte,happy hour
+19,relaxado,pop,caipirinha,media,festa
+20,relaxado,jazz,vinho tinto,forte,jantar
+21,tranquilo,rock,whisky,forte,festa
+22,nostalgico,eletronico,vodka e energetico,media,balada
+23,relaxado,rock,whisky,media,happy hour
+24,animado,rock,cerveja artesanal,media,relaxamento
+25,nostalgico,eletronico,drink energetico,leve,balada
+26,animado,rock,cerveja artesanal,media,happy hour
+27,nostalgico,pop,spritz,media,happy hour
+28,tranquilo,jazz,vinho tinto,forte,happy hour
+29,animado,eletronico,vodka e energetico,media,jantar
+30,feliz,rock,rum,leve,balada
