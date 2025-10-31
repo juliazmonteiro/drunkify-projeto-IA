@@ -18,5 +18,5 @@ Conteúdo deste repositório:
 - Pasta `N2 - Drunkify`
   - `analise_exploratoria_drunkify_N2.ipynb` - Notebook EDA
   - `analise_exploratoria_drunkify_n2.py`-  Script Python
-  - 'data_moods.csv' - Data Set coletado de https://www.kaggle.com/datasets/musicblogger/spotify-music-data-to-identify-the-moods
-  - arquivos `.png` - resultados das análises dos dados
+  - `data_moods.csv` - Data Set coletado de https://www.kaggle.com/datasets/musicblogger/spotify-music-data-to-identify-the-moods
+  - `arquivos .png` - resultados das análises dos dados
