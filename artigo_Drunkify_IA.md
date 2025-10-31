@@ -48,15 +48,15 @@ Com essa abordagem, o Drunkify consegue criar experiências divertidas, personal
 
 ### **4\. Opção do Projeto**
 
-	Este trabalho foi desenvolvido de acordo com a Opção Framework, que exige o uso de ferramentas de Machine Learning/Deep Learning para resolver problemas de análise ou recomendação de dados.
+Este trabalho foi desenvolvido de acordo com a Opção Framework, que exige o uso de ferramentas de Machine Learning/Deep Learning para resolver problemas de análise ou recomendação de dados.
 
-	Foi utilizada uma base de dados real, contendo informações sobre humor e  estilos musicais, com o objetivo de simular cenários reais de uso. Esses dados foram processados e analisados em Python, utilizando bibliotecas como pandas, matplotlib, seaborn e scikit-learn.
+Foi utilizada uma base de dados real, contendo informações sobre humor e  estilos musicais, com o objetivo de simular cenários reais de uso. Esses dados foram processados e analisados em Python, utilizando bibliotecas como pandas, matplotlib, seaborn e scikit-learn.
 
-	Essa abordagem permitiu aplicar técnicas de pré-processamento, análise exploratória e modelagem simples, com o objetivo de demonstrar a viabilidade de um sistema de recomendação personalizado. 
+Essa abordagem permitiu aplicar técnicas de pré-processamento, análise exploratória e modelagem simples, com o objetivo de demonstrar a viabilidade de um sistema de recomendação personalizado. 
 
 **4\. Data Set**
 
-	Para o protótipo do Drunkify, foi utilizado um dataset real sobre dados do *Spotify* para identificar humores com o objetivo de simular o perfil de usuários, seus humores, estilos musicais preferidos e preferências de bebidas.
+Para o protótipo do Drunkify, foi utilizado um dataset real sobre dados do *Spotify* para identificar humores com o objetivo de simular o perfil de usuários, seus humores, estilos musicais preferidos e preferências de bebidas.
 
 O dataset contém as seguintes informações:
 
@@ -73,24 +73,24 @@ O dataset contém as seguintes informações:
 
 4.1 Análise Exploratória
 
-	A análise exploratória teve como objetivo compreender as características musicais objetivas presentes no dataset e identificar padrões que pudessem orientar os mapeamentos de humor e as recomendações automatizadas do sistema. Utilizou-se o dataset público "Spotify Music Data to Identify Moods" (Kaggle), contendo 686 músicas com features de áudio validadas pela API do Spotify.
+A análise exploratória teve como objetivo compreender as características musicais objetivas presentes no dataset e identificar padrões que pudessem orientar os mapeamentos de humor e as recomendações automatizadas do sistema. Utilizou-se o dataset público "Spotify Music Data to Identify Moods" (Kaggle), contendo 686 músicas com features de áudio validadas pela API do Spotify.
 
-	Foram analisadas distribuições de *energy* (energia), *danceability* (dançabilidade) e *acousticness* (natureza acústica), identificando padrões que orientaram os mapeamentos de humor e recomendações automatizadas. Observou-se, por exemplo, que músicas com alta *energy* e danceability associam-se ao humor "animado", enquanto baixa *energy* relaciona-se a "relaxado" ou "cansado".
+Foram analisadas distribuições de *energy* (energia), *danceability* (dançabilidade) e *acousticness* (natureza acústica), identificando padrões que orientaram os mapeamentos de humor e recomendações automatizadas. Observou-se, por exemplo, que músicas com alta *energy* e danceability associam-se ao humor "animado", enquanto baixa *energy* relaciona-se a "relaxado" ou "cansado".
 
-	4.2 Preparação dos Dados
+4.2 Preparação dos Dados
 
-	Para que os dados pudessem ser utilizados em algoritmos de Machine Learning, foi necessário realizar algumas transformações:
+Para que os dados pudessem ser utilizados em algoritmos de Machine Learning, foi necessário realizar algumas transformações:
 
 * Mapeamento de variáveis;  
 * Conversão de categorias em números: usando LabelEncoder, transformando campos como humor, estilo musical e bebida favorita em valores numéricos;  
 * Normalização de features: aplicação de StandardScaler nas features numéricas (energy, danceability, acousticness) para garantir que todas as variáveis contribuam igualmente no modelo;  
 * Verificação de valores ausentes: não foram identificados casos incompletos no dataset original do Spotify;
 
-	O dataset ficou pronto para aplicação de modelos simples de classificação, permitindo simular recomendações de bebidas e músicas personalizadas de acordo com o humor e preferências do usuário.
+O dataset ficou pronto para aplicação de modelos simples de classificação, permitindo simular recomendações de bebidas e músicas personalizadas de acordo com o humor e preferências do usuário.
 
 **5\. Metodologia**
 
-	Esta pesquisa classifica-se como aplicada, de abordagem qualitativa, com delineamento exploratório e descritivo. O caráter aplicado justifica-se pela busca de uma solução prática para criar experiências personalizadas de entretenimento, utilizando bebidas, música e tecnologias digitais, especialmente inteligência artificial (IA) e Machine Learning (ML). A abordagem qualitativa é adequada para investigar fenômenos subjetivos, como preferências de humor e estilo musical, e analisar como estas escolhas podem influenciar recomendações personalizadas. O delineamento exploratório reflete a natureza inovadora do projeto, uma vez que não existem, até o momento, plataformas que integrem IA, gamificação e experiências sensoriais de forma coordenada nesse contexto. A dimensão descritiva está presente na documentação detalhada do processo de criação do protótipo, permitindo registrar o percurso metodológico adotado.
+Esta pesquisa classifica-se como aplicada, de abordagem qualitativa, com delineamento exploratório e descritivo. O caráter aplicado justifica-se pela busca de uma solução prática para criar experiências personalizadas de entretenimento, utilizando bebidas, música e tecnologias digitais, especialmente inteligência artificial (IA) e Machine Learning (ML). A abordagem qualitativa é adequada para investigar fenômenos subjetivos, como preferências de humor e estilo musical, e analisar como estas escolhas podem influenciar recomendações personalizadas. O delineamento exploratório reflete a natureza inovadora do projeto, uma vez que não existem, até o momento, plataformas que integrem IA, gamificação e experiências sensoriais de forma coordenada nesse contexto. A dimensão descritiva está presente na documentação detalhada do processo de criação do protótipo, permitindo registrar o percurso metodológico adotado.
 
 A primeira etapa da pesquisa consistiu em uma revisão bibliográfica com o objetivo de estudar a personalização e recomendação por IA, a gamificação e o engajamento do usuário, além de experiências sensoriais mediadas por tecnologia.
 
@@ -98,52 +98,52 @@ Na etapa seguinte, foi conduzida uma análise exploratória de soluções tecnol
 
 **6\. Resultados**
 
-	O projeto utilizou o dataset público "Spotify Music Data to Identify Moods" (Kaggle), contendo 686 músicas do período de 1966-2020, com features de áudio validadas pela API do Spotify. Após o processamento, foram identificados 7 humores distintos e mapeadas categorias de bebidas baseadas em características musicais.
+O projeto utilizou o dataset público "Spotify Music Data to Identify Moods" (Kaggle), contendo 686 músicas do período de 1966-2020, com features de áudio validadas pela API do Spotify. Após o processamento, foram identificados 7 humores distintos e mapeadas categorias de bebidas baseadas em características musicais.
 
-	6.1 Análise Exploratória
+6.1 Análise Exploratória
 
-	A análise revelou padrões consistentes entre características musicais e humores:
+A análise revelou padrões consistentes entre características musicais e humores:
 
 * Músicas com alta *energy* e *danceability* associaram-se ao humor "animado"  
 * Baixa energy correlacionou-se com "relaxado" e "cansado"  
 * Alta *acousticness* relacionou-se a humores contemplativos
 
-	As relações humor-bebida mapeadas com base em Carvalho et al. (2016) e Jacob (2006) mostraram coerência: humores positivos relacionaram-se a bebidas sociais (cerveja, espumante), enquanto humores contemplativos associaram-se a bebidas de apreciação (vinho, whisky).
+As relações humor-bebida mapeadas com base em Carvalho et al. (2016) e Jacob (2006) mostraram coerência: humores positivos relacionaram-se a bebidas sociais (cerveja, espumante), enquanto humores contemplativos associaram-se a bebidas de apreciação (vinho, whisky).
 
-	6.2 Modelo de Machine Learning
+6.2 Modelo de Machine Learning
 
-	Foram treinados dois algoritmos de classificação (Decision Tree e Random Forest) para recomendar bebidas com base em humor e características musicais. O Random Forest apresentou melhor desempenho e foi selecionado como modelo final.
+Foram treinados dois algoritmos de classificação (Decision Tree e Random Forest) para recomendar bebidas com base em humor e características musicais. O Random Forest apresentou melhor desempenho e foi selecionado como modelo final.
 
-	Configuração:
+Configuração:
 
 * Features utilizadas: humor, estilo musical, energy, danceability, acousticness (normalizadas)  
 * Target: categoria de bebida  
 * Divisão: 80% treino (549 amostras) / 20% teste (137 amostras)  
 * Validação: Cross-validation 5-fold
 
-	A análise de importância das features revelou que humor e características musicais contribuem de forma equilibrada para as recomendações, validando a abordagem de integrar múltiplas dimensões sensoriais.
+A análise de importância das features revelou que humor e características musicais contribuem de forma equilibrada para as recomendações, validando a abordagem de integrar múltiplas dimensões sensoriais.
 
-	6.3 Validação e Consistência
+6.3 Validação e Consistência
 
-	O modelo demonstrou consistência com a fundamentação teórica: recomendações para humores positivos alinharam-se com bebidas sociais (Jacob, 2006), e a relação entre energia musical e intensidade de bebida mostrou-se coerente com Carvalho et al. (2016).
+O modelo demonstrou consistência com a fundamentação teórica: recomendações para humores positivos alinharam-se com bebidas sociais (Jacob, 2006), e a relação entre energia musical e intensidade de bebida mostrou-se coerente com Carvalho et al. (2016).
 
-	Artefatos gerados: dataset processado, modelos treinados com encoders, visualizações em alta resolução, documentação completa e código reprodutível.
+Artefatos gerados: dataset processado, modelos treinados com encoders, visualizações em alta resolução, documentação completa e código reprodutível.
 
-	Limitações observadas: tamanho moderado do dataset (686 músicas), mapeamentos baseados em literatura, e viés cultural . Estas limitações são reconhecidas e discutidas, mas não comprometem a validade da prova de conceito desenvolvida.
+Limitações observadas: tamanho moderado do dataset (686 músicas), mapeamentos baseados em literatura, e viés cultural . Estas limitações são reconhecidas e discutidas, mas não comprometem a validade da prova de conceito desenvolvida.
 
 **7\. Conclusões**
 
-	O projeto Drunkify teve como objetivo criar um sistema de recomendação que unisse música, emoções e bebidas de forma personalizada, usando inteligência artificial. A ideia foi mostrar que é possível gerar experiências sensoriais únicas com base em dados reais e ciência, conectando as características de músicas, o humor das pessoas e suas preferências de consumo. Para isso, foi utilizado um conjunto de dados real do Spotify com 686 músicas e suas métricas validadas, além de uma base teórica em estudos sobre música, emoções e comportamento humano.
+O projeto Drunkify teve como objetivo criar um sistema de recomendação que unisse música, emoções e bebidas de forma personalizada, usando inteligência artificial. A ideia foi mostrar que é possível gerar experiências sensoriais únicas com base em dados reais e ciência, conectando as características de músicas, o humor das pessoas e suas preferências de consumo. Para isso, foi utilizado um conjunto de dados real do Spotify com 686 músicas e suas métricas validadas, além de uma base teórica em estudos sobre música, emoções e comportamento humano.
 
-	Os resultados foram muito positivos. O projeto conseguiu utilizar um dataset real e confiável, mapeou humores a partir de características musicais e estabeleceu relações entre emoções e tipos de bebidas baseadas em pesquisas científicas. O modelo de Machine Learning (Random Forest) funcionou bem e mostrou que essa integração é viável tecnicamente. 
+Os resultados foram muito positivos. O projeto conseguiu utilizar um dataset real e confiável, mapeou humores a partir de características musicais e estabeleceu relações entre emoções e tipos de bebidas baseadas em pesquisas científicas. O modelo de Machine Learning (Random Forest) funcionou bem e mostrou que essa integração é viável tecnicamente. 
 
-	Mesmo com esses avanços, algumas limitações foram reconhecidas. O conjunto de músicas, embora adequado para o teste, ainda é pequeno para uma aplicação ampla, não houve uma validação prática com pessoas para medir a satisfação com as recomendações, e também, o dataset é predominantemente ocidental, o que pode limitar a diversidade cultural.
+Mesmo com esses avanços, algumas limitações foram reconhecidas. O conjunto de músicas, embora adequado para o teste, ainda é pequeno para uma aplicação ampla, não houve uma validação prática com pessoas para medir a satisfação com as recomendações, e também, o dataset é predominantemente ocidental, o que pode limitar a diversidade cultural.
 
-	O trabalho mostrou como é possível unir teoria científica e dados reais em projetos de IA aplicada, promoveu uma integração entre áreas muito diferentes, como psicologia, música e tecnologia, e reforçou a importância da ética em projetos.
+O trabalho mostrou como é possível unir teoria científica e dados reais em projetos de IA aplicada, promoveu uma integração entre áreas muito diferentes, como psicologia, música e tecnologia, e reforçou a importância da ética em projetos.
 
-	Futuramente, o projeto pode evoluir em várias direções. Em um primeiro momento, seria interessante coletar dados reais de usuários, testar o sistema com pessoas e aumentar a diversidade musical do dataset. Em seguida, pode-se desenvolver um protótipo funcional do Drunkify, integrando a API do Spotify para gerar recomendações em tempo real e realizando testes com usuários para medir a satisfação. Em seguida, o ideal seria realizar experimentos controlados que validem cientificamente as relações entre música, humor e bebida, além de explorar novos contextos.
+Futuramente, o projeto pode evoluir em várias direções. Em um primeiro momento, seria interessante coletar dados reais de usuários, testar o sistema com pessoas e aumentar a diversidade musical do dataset. Em seguida, pode-se desenvolver um protótipo funcional do Drunkify, integrando a API do Spotify para gerar recomendações em tempo real e realizando testes com usuários para medir a satisfação. Em seguida, o ideal seria realizar experimentos controlados que validem cientificamente as relações entre música, humor e bebida, além de explorar novos contextos.
 
-	O Drunkify mostrou que é possível criar experiências personalizadas e significativas usando tecnologia e ciência de forma criativa. Mesmo sendo um projeto conceitual, ele abre portas para novas formas de unir música, emoções e consumo de maneira inovadora. Ao mesmo tempo em que respeita os limites éticos e metodológicos, o projeto propõe um olhar mais humano sobre o papel da inteligência artificial, não apenas como ferramenta de automação, mas como meio de gerar conexões emocionais mais ricas entre pessoas e experiências.
+O Drunkify mostrou que é possível criar experiências personalizadas e significativas usando tecnologia e ciência de forma criativa. Mesmo sendo um projeto conceitual, ele abre portas para novas formas de unir música, emoções e consumo de maneira inovadora. Ao mesmo tempo em que respeita os limites éticos e metodológicos, o projeto propõe um olhar mais humano sobre o papel da inteligência artificial, não apenas como ferramenta de automação, mas como meio de gerar conexões emocionais mais ricas entre pessoas e experiências.
 
 **8\. Referências bibliográficas**
 
